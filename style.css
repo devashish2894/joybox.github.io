@@ -1,0 +1,269 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: FontAwesome;}
+
+/* //////////////////header////////////////////// */
+
+.logo{ margin-left: 20px;}
+.logo img{height: 39px;}
+.left{display: flex;justify-content:space-between}
+.input_bar input{width: 300px;height: 25px;border-radius: 25px;outline: none;margin-top: 17px;padding: 5px;}
+.input_bar{position: relative;}
+.input_bar img{position: absolute;top: 20px;right: 12px;height: 18px;}
+
+.icons ul li{float: left;margin-right: 40px;list-style: none;}
+.icons ul{margin-top: 16px;}
+.icons ul li a{text-decoration: none;color: black;}
+.one{width: 100px;height: 40px;border-radius: 25px;margin-top: 13px;background-color: rgb(21, 159, 252);color: rgb(255, 255, 255);margin-right: 10px;outline: none;font-weight: 700;font-size: 0.9rem;border: none;}
+.kart{position: relative;}
+.kart:after{width: 20px;height: 20px;background-color: rgb(255, 120, 67);content: "1";position: absolute;border-radius: 50%;color: rgb(255, 255, 255);left: 32px;top: -15px;display: flex;justify-content: center;align-items: center;}
+
+/* ///////////////////navbar///////////// */
+
+nav{width: 100%;height: 40px;background-color: rgb(22, 169, 236);}
+nav ul li{float: left;list-style: none;margin-right: 10px;margin-top: 4px;color: white;text-transform: capitalize;display: block;height: 33px;width: 83px;text-align: center;padding-top:8px ;position: relative;}
+nav ul li:hover{border: 1px solid white;}
+nav ul{margin-top: 20px;margin-left: 83px;}
+.ham i{margin-right: 8px;}
+.hams{display: none;}
+nav ul li ul{position: absolute; ;left: -81px;top:14px;display: none;z-index: 1;}
+nav ul li ul li{color: white;margin: 0;padding: 12px 0;background-color: rgb(22, 169, 236);height: 45px;position: relative;text-align: left;padding-left: 5px;width: 83px;}
+nav ul li:hover>ul{display: block;}
+nav ul li ul li ul{position: absolute; ;left: 0px;top:-18px;display: none;z-index: 1;}
+nav ul li ul li ul li{position: relative;width: 83px;}
+nav ul li ul li ul li ul {position: absolute;left: 0px;top:-20px;display: none;z-index: 1;}
+
+
+/* \\\\\\\\\\\\\poster/////////////////////// */
+#poster{overflow: hidden;}
+ #poster figure{position: relative;width: 500%;left:0;animation: 15s poster infinite ;margin: 0;}
+#poster figure img{width: 20%;float: left;height: 600px;}
+@keyframes poster{
+    0% {left:0};
+    20%{left:0};
+    25%{left:-100%}
+    45%{left:-100%}
+    50%{left:-200%}
+    70%{left:-200%}
+    75%{left:-300%}
+    95%{left:-300%}
+    100%{left:-400%}
+
+}
+
+
+
+/* ////////////////////third//////////////////////////// */
+.third{display: flex;flex-wrap: wrap;}
+
+
+.dis{width:300px;height: 475px;background-color: rgb(223, 223, 223);display: flex;margin-left: 55px;flex-wrap: wrap;padding: 0;margin-top: 10px;}
+
+
+
+
+.distwo{width:300px;height: 475px;background-color: rgb(223, 223, 223);display: flex;margin-left: 55px;flex-wrap: wrap;padding: 0;margin-top: 10px;}
+
+
+.disthree{width:300px;height: 475px;background-color: rgb(223, 223, 223);display: flex;margin-left: 55px;flex-wrap: wrap;padding: 0;margin-top: 10px;}
+.dis4{width:300px;height: 475px;background-color: rgb(223, 223, 223);display: flex;margin-left:55px;flex-wrap: wrap;padding: 0;margin-top: 10px;}
+
+.headi h3{padding: 5px 0;}
+.headi{width: 100%;height: 35px;text-align: center;text-transform: capitalize;}
+.i_control{width: 131px;margin-left: 10px;}
+.i_control img{height: 115px;}
+.ch{display: flex;flex-wrap: wrap;margin-top: -76px;margin-left: 11px;}
+.i_control3{margin-left:10px ;}
+
+.i_control3 img{height: 89px;}
+.ch3{display: flex;flex-wrap: wrap;margin-top: -76px;margin-left: 2px;}
+.ch3 p{margin-left: 10px;}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\banner/////////////////// */
+.sale{width: 100%;height: 600px;background-color: burlywood;padding: 11px;position: relative;}
+.sale img {height: 580px;width: 100%;}
+.banner{margin-top: 20px;}
+.winter {position: absolute;top: 41%;left: 53%;transform: translate(-50% ,-50%);}
+.winter h1{font-family: 'Roboto', sans-serif;font-size: 4.9rem;color: white;}
+.sale::after{content: 'coming soon';background: black;width: 100%;height: 100%;position: absolute;left: 0;top: 0;opacity: 0;color: white;display: flex;justify-content: center;align-items: center;font-size: 50px;font-family: 'Roboto', sans-serif;transition: 0.6s ease;}
+.sale:hover:after{opacity: 0.7;}
+
+/* ////////////////////deal of the day//////////////////////// */
+.topdeal{margin-top: 50px;height: 50vh;width: 100%;}
+.day {margin-left: 30px;}
+.day ul li {float: left;list-style: none;margin-right: 33px;}
+.day ul li img{height: 200px;}
+.day ul li p{padding-left: 40px;font-size: 31px;}
+.day h2 {text-transform: capitalize;font-size: 48px;}
+.day p {font-size: 24px;margin-bottom: 12px;}
+
+.day ul li a{text-decoration: none;color: black;}
+
+.day ul li a:hover{color: blue;}
+
+
+/* ////////////////////////////inform//////////////////////////////// */
+.inform{margin-top: 50px;width: 100%;height: 90vh;padding: 10px;display: flex;justify-content: space-evenly;align-items: center;flex-wrap: wrap;}
+.gip{width: 300px;height: 600px;;margin-top: 20px;background-image: url("door.jpg");background-repeat: no-repeat;background-size: contain;cursor: pointer;}
+.gip:hover{background-image: url("giphy.gif");}
+.dilvery{width: 385px;height: 300px;}
+.dilvery p{font-size: 35px;text-align: center;font-family: 'Roboto', sans-serif;text-transform: capitalize;}
+
+/* ////////////////////off//////////////////////////// */
+.off1{width: 100%;height: 80vh;}
+.off1 h1{text-align: center;font-size: 40px;margin-bottom: 20px;}
+.off{width: 100%;height: 80vh;display: flex;flex-wrap: wrap;justify-content: space-evenly;align-items: center;margin-top: 3px;}
+.pan1{width: 257px;height: 414px;background-color: cornsilk;padding: 10px;position: absolute;top: 10px;left: -10px;font-family: 'Birthstone', cursive;}
+.shad{width: 257px;height:414px;background-color: rgba(245, 192, 78, 0.541);position: relative;margin-left: 50px;}
+.pan1 img {height: 200px;margin-top: 36px;margin-left: 39px;}
+.pan1 h3{text-align: center;font-family: 'Birthstone', cursive;font-size: 40px;}
+.pan1 p{text-align: center;font-family: 'Birthstone', cursive;font-size: 20px;}
+/* pan2 */
+.pan2{width: 257px;height: 414px;background-color: cornsilk;padding: 10px;position: absolute;top: 10px;left: -10px;}
+.shad2{width: 257px;height:414px;background-color: rgba(245, 192, 78, 0.541);position: relative;margin-left: 50px;}
+.pan2 img {height: 200px;margin-top: 36px;margin-left: 39px;}
+.pan2 h3{text-align: center;}
+.pan2 p{text-align: center;}
+
+
+
+
+/* pan3 */
+
+.pan3{width:257px;height:414px;background-color:cornsilk;padding:10px;position:absolute;top:10px;left:-10px;}
+.shad3{width:257px;height:414px;background-color:rgba(245, 192, 78, 0.541);position:relative;margin-left:50px;}
+.pan3 img {height:200px;margin-top:36px;margin-left:39px;}
+.pan3 h3{}
+.fo h3{text-align:center;text-transform:capitalize;}
+.fo p{text-align:center;}
+
+
+.shad2{margin-bottom:120px;}
+.shad,.shad3{margin-top:106px;}
+
+
+.two{position:absolute;left:102px;top:358px;width: 71px;height: 25px;border-radius: 10px;background-color: rgb(243, 221, 135);}
+
+
+/* ////////////////////heaqdphoines////////////////// */
+
+.headphone{width:100%;height:80vh;margin-top:190px;position:relative;}
+.headphone:before{content:"";background:linear-gradient(-165deg,#adeefe 58%,#fff 0); z-index:-1;position: absolute;left:0;top: 0;bottom: 0;right: 0;}
+.headphone h1 {text-transform: capitalize;color: rgb(255, 255, 255);font-size: 51px;margin-bottom: -68px;}
+.headp{width: 300px;height: 345px;position: relative;top: 165px;margin: 0 auto;}
+.device{width: 150;height: 200px;position: absolute;}
+.device img{height: 373px;transform: rotate(-28deg);}
+.tag img{height: 200px;}
+.tag{position: absolute;bottom:-80px;left: 214px;z-index: -1;}
+.three{margin-left: 400px;width: 136px;height: 43px;border-radius: 25px;background-color: red;color: rgb(255, 255, 255);}
+.three:hover{background-color: rgb(5, 175, 5);color: rgb(255, 255, 255);}
+/* /////////////////////footer///////////////////// */
+
+.foot{width: 100%;height: 200px;background-color: rgb(22, 169, 236);}
+.fh img {height: 50px;margin-left: 50px;}
+.fh{width: 300px;height: 60px;margin: auto;}
+.fh p{text-align: center;color: rgb(255, 255, 255);}
+.navfoot {width: 85%;height: 30px;margin: 50px auto;color: white;font-size:17px;padding-top: 5px;}
+.navfoot ul li{float:left ;margin-right: 145px;margin-left: 40px;text-decoration: none;}
+.navfoot ul li a{text-decoration: none;color: rgb(255, 255, 255);}
+.navfoot p {text-align: center;margin-top: 40px;}
+.copyright p {text-align: center;color: rgb(143, 142, 142);}
+
+
+/* \\\\\\\\\\\\\\\\\\\festive///////////////// */
+.fest{width: 100%;height: 600px;display: flex;flex-wrap: wrap;justify-content: space-evenly;align-items: center;    margin-top: -62px}
+.fest img{height: 349px;}
+.fest1 h1{text-transform: capitalize;margin-left:20px ;font-size: 48px;}
+.fest1{width: 100%;height: 650px;margin-top: 59px}
+
+/* //////////////////////pop up////////////////////// */
+
+.contain{width: 500px;height: 217px;background-color: aliceblue;z-index: 1;position: fixed;left: 415px;top: 275px;opacity: 0.9;display: none;}
+.iner{margin: 84px auto;width: 158px;text-align: center;}
+.iner a {text-decoration: none;color: black;}
+#close_btn{float: right;cursor: pointer;}
+
+
+
+/* \\\\\\\\\\\\\\\\\\\mediaquaries///////////////////// */
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+   
+    .icons ul {display: none;}
+    .input_bar input{width: 300px;height: 25px;border-radius: 25px;outline: none;
+        ;padding: 5px;margin-top: 5px;}
+
+        .input_bar{position: relative;z-index: 1;top: 27px;left:-134px;margin: 19px 0;}
+         .input_bar img{position: absolute;top: 9px;right: 7px;height: 18px;}
+         .one{width: 100px;height: 41px;border-radius: 25px;margin-top: 13px;background-color: rgb(21, 159, 252);color: rgb(255, 255, 255);margin-right: 10px;outline: none;font-weight: 700;font-size: 0.9rem;border: none;position: absolute;top:-8px;right:0}
+     
+    
+   
+
+    nav{width: 101%;height: 40px;background-color: rgb(22, 169, 236);}
+
+    nav ul li{display: none;}
+
+    .hams{display: block;margin-left: -70px;margin-top: 10px;margin-top: 3px;padding: 1px 0;}
+    .hams ul li{display: block;width: 100px;}
+    
+    
+    
+
+    #poster figure img{width: 20%;float: left;height: 300px;}
+    
+
+    .three{margin-left: 198px;width: 136px;height: 43px;border-radius: 25px;background-color: red;color: rgb(255, 255, 255);margin-top: -28px;}
+     
+    .headphone{margin-top: 960px;position: relative;height: 84vh;}
+    .headphone:before{content: "";background:linear-gradient(-165deg,#adeefe 68%,#fff 0); z-index: -1;position: absolute;left:0;top: 0;bottom: 0;right: 0;}
+
+    .gip{width: 300px;height: 600px;;margin-top: 238px;background-image: url("door.jpg");background-repeat: no-repeat;background-size: contain;cursor: pointer;}
+
+    .off1{width: 100%;height: 80vh;margin-top: 20px;}
+
+    .shad2{margin-bottom: -15px;
+        margin-top: 72px;}
+    .inform{margin-top: 50px;width: 100%;height: 137vh;padding: 10px;display: flex;justify-content: space-evenly;align-items: center;flex-wrap: wrap;}
+    .navfoot p {text-align: center;margin-top: 8px;margin-right: -11px;}
+    .navfoot{margin-top: 30px;height: 33vh;}
+    .fest1{width: 100%;height: 1500px;}
+    .fest{width: 100%;height: 600px;display: flex;flex-wrap: wrap;justify-content: space-evenly;align-items: center;    margin-top: 21px}
+    .day h2{text-align: center;}
+    .day p{text-align: center;}
+    .fest1 h1{text-align: center;}
+
+    .contain{width: 340px;
+    height: 205px;
+    background-color: aliceblue;
+    z-index: 1;
+    position: fixed;
+    left: 14px;
+    top: 275px;
+    opacity: 0.9;}
+}
+
+@media (min-width:768px)and (max-width:1024px){
+    .icons ul {display: none;}
+    .shad3{margin-top: -85px;}
+    .shad{margin-top: -120px;}
+    .headphone{width:100%;height:66vh;margin-top:190px;position:relative;}
+    .three{margin-left: 198px;width: 136px;height: 43px;border-radius: 25px;background-color: red;color: rgb(255, 255, 255);margin-top: -28px;}
+.foot{height: 51vh;}
+.navfoot{margin-top: 30px;height: 33vh;}
+
+.navfoot p {text-align: center;margin-top: 8px;margin-right: -11px;}
+.fest1{width: 100%;height: 780px;margin-top: -37px;}
+.day h2{text-align: center;}
+    .day p{text-align: center;}
+    .fest1 h1{text-align: center;margin-bottom:71px ;}
+    
+
+
+}
+
